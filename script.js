@@ -68,6 +68,7 @@ const holdingScores = function () {
     }
 };
 
+//initial values
 const init = function () {
     score0El.textContent = 0;
     score1El.textContent = 0;
