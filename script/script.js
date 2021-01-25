@@ -33,7 +33,7 @@ const rollingDice = function () {
 
     //display dice
     diceEl.classList.remove('hidden');
-    diceEl.src = `dice-${dice}.png`;
+    diceEl.src = `img/dice-${dice}.png`;
 
     //check for rolled 1: if true
     if (dice !== 1) {
